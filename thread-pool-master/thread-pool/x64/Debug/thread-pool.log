@@ -1,0 +1,13 @@
+﻿  Main.cpp
+C:\Users\Лена\Desktop\thread-pool-master\thread-pool\Main.cpp(39,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Лена\Desktop\thread-pool-master\thread-pool\Main.cpp(88,21): warning C4018: <: несоответствие типов со знаком и без знака
+  ThreadPool.cpp
+C:\Users\Лена\Desktop\thread-pool-master\thread-pool\ThreadPool.cpp(29,68): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+C:\Users\Лена\Desktop\thread-pool-master\thread-pool\ThreadPool.cpp(84,25): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Лена\Desktop\thread-pool-master\thread-pool\SafeQueue.h(25,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Лена\Desktop\thread-pool-master\thread-pool\SafeQueue.h(23): message : во время компиляции функции-члена класс шаблон "int SafeQueue<std::function<void (void)>>::size(void)"
+C:\Users\Лена\Desktop\thread-pool-master\thread-pool\ThreadPool.cpp(41): message : выполняется компиляция ссылки на экземпляр шаблон функции "int SafeQueue<std::function<void (void)>>::size(void)"
+C:\Users\Лена\Desktop\thread-pool-master\thread-pool\ThreadPool.h(19): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "SafeQueue<std::function<void (void)>>"
+  ThreadWorker.cpp
+  Создание кода...
+  thread-pool.vcxproj -> C:\Users\Лена\Desktop\thread-pool-master\x64\Debug\thread-pool.exe
